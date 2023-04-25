@@ -1,0 +1,17 @@
+{
+  "name": "bot-let-loose",
+  "version": "1.0.0",
+  "description": "SFSO / YEET community discord bot for bespoke functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DarkMukke <hello@darkmukke.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "got": "^7.1.0",
+    "underscore": "^1.13.6"
+  }
+}

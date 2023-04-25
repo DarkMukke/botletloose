@@ -1,0 +1,11 @@
+{
+  "BOT_TOKEN": "",
+  "clientid" : "",
+  "guilds" : [
+    {
+      "id": "",
+      "admin_channel": "",
+      "seed_channel": ""
+    }
+  ]
+}
