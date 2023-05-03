@@ -138,7 +138,7 @@ module.exports = {
                     }
                     let new_threshold_index = findThresholdIndex(thresholds, loop_hlldata.players);
                     if(new_threshold_index > current_threshold_index ) {
-                        seed_channel.send(`Al ${hlldata.players} spelers online.`);
+                        seed_channel.send(`Al ${loop_hlldata.players} spelers online.`);
                     } else if(loop_hlldata.players === loop_hlldata.maxPlayersplayers ) {
                         // server full, lets cancel the seeder
                         admin_channel.send(`Seeding #${server} voltooid: Server zit vol (${loop_hlldata.players}/${loop_hlldata.maxPlayersplayers}).`)
